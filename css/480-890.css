@@ -72,16 +72,16 @@ div + div {
 }
 h2 {
     display:block;
-    margin:0 3vw;
+    margin: 1vw 3vw;
     float:left;
-    font-size: 2vw;
-    height:5vw;
+    font-size: 3vw;
+    height:vw;
 }
 #hobbies a {
     clear:left;
     float:left;
     display:block;
-    margin: 0 3vw;
+    margin: 0 3vw 1vw 3vw;
 }
 
 #hobbies p {
@@ -96,7 +96,7 @@ h2 {
 
 div img {
     width: 38vw;
-    height: 20vw;
+    height: 26vw;
     float:right;
     margin: 1vw 1vw 0 0;
     border-radius:10%;

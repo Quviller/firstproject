@@ -1,0 +1,101 @@
+h1 {
+    font-size: 3.5vw;
+    margin:0.75vw 1.5vw;
+    height:3.5vw;
+   
+}
+
+#about {
+    margin-top:5vw;
+    height:35vw;
+}
+
+#about img {
+    width:25vw;
+    height:25vw;
+}
+p {
+    font-size:2.2vw;
+    padding:3vw 0 0 2.5vw;
+    height:25vw;
+}
+
+#hobbies {
+    clear:both;
+    margin-top:5vw;
+}
+
+div + div {
+    clear:both;
+}
+
+h2 {
+    display:block;
+    margin:5vw 7vw 2vw 7vw;
+   
+    font-size: 3vw;
+    height:5vw;
+}
+#hobbies a {
+    clear:left;
+   
+    display:block;
+    margin: 0 7vw;
+    font-size:2.5vw;
+    height:5vw;
+}
+div img {
+    width: 38vw;
+    height: 20vw;
+    float:right;
+    margin: 1vw 5vw 4vw 0;
+    border-radius:10%;
+    transition: border-radius 2s;
+}
+
+#photos {
+    clear:both;
+}
+
+
+#photos {
+    position:relative;
+    margin-bottom: 45px;
+}
+figure img {
+    width: 92vw;
+    height:60vw;
+}
+footer {
+    height:70px;
+}
+
+form {
+    float:left;
+    position:relative;
+    color: white;
+    margin:0;
+}
+
+input {
+    display:block;
+    margin:8px;
+    height:20px;
+}
+.social-nav ul li a img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin:12.5px 0.5vw;
+    border-radius:20%;
+    transition: border-radius 2s;
+}
+.social-nav ul li a img:hover {
+    border-radius: 50%;   
+}
+.hidden480 {
+    position:absolute;
+    visibility:hidden;
+    top:0;
+    left:0;
+}

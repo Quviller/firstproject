@@ -5,8 +5,8 @@
         <title>DRV website</title>
         <link rel="stylesheet" href="css/normalized.css" >
         <link rel="stylesheet" href="css/index.css" media="only screen and (min-width: 891px)">
-        <link rel="stylesheet" href="css/lg.css"  media="only screen and (min-width: 891px)">
-        <link rel="stylesheet" href="css/480-890.css" media="only screen and (min-width: 480px) and (max-width: 890px)">
+        <link rel="stylesheet" href="css/480-890.css" media="only screen and (max-width: 890px)">
+        <link rel="stylesheet" href="css/320-480.css" media="only screen and (max-width: 540px)">
     </head>
     <body>
         <header> 
@@ -14,7 +14,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="/">About Me</a></li>
-                    <li id="hobbies-link"><a href="#hobbies">My Hobbies</a></li>
+                    <li class="hiddenlg"><a href="#hobbies">My Hobbies</a></li>
                     <li><a href="#photos">My Photos</a></li>
                 </ul>
             </nav>
@@ -33,7 +33,7 @@
                 <h2>Liverpool FC</h2>
                 <img src="images/hobby/liverpool.jpg" alt="Liverpool">
                 <a href="http://www.liverpoolfc.com/welcome-to-liverpool-fc" target="blank">You'll Never Walk Alone</a>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <p class="hiddenlg hidden480">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 </p>
                 
@@ -42,7 +42,7 @@
                 <h2>Chess</h2>
                 <img src="images/hobby/chess.jpg" alt="Chess">
                 <a href="https://www.chess.com/members/view/Quviller" target="blank">Let's play a game</a>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <p class="hiddenlg hidden480"">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 </p>
             </div>
@@ -50,7 +50,7 @@
                 <h2>Game of Thrones</h2>
                 <img src="images/hobby/GoT.jpg" alt="Gama of Thrones">
                 <a href="http://www.hbo.com/game-of-thrones" target="blank">The best TV-show</a>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <p class="hiddenlg hidden480"">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                 </p>
             </div>
@@ -58,23 +58,23 @@
         </section>
         
         <section id="photos">
-            <img id="left-arrow" src="images/buttons/arrows.png" alt="left">
-            <img id="right-arrow" src="images/buttons/arrows.png" alt="right">
+            <img class="hidden480" id="left-arrow" src="images/buttons/arrows.png" alt="left">
+            <img class="hidden480" id="right-arrow" src="images/buttons/arrows.png" alt="right">
            <figure>
               <img src="images/party/2friends.jpg" alt="2 Friends">
             </figure>
             
             <figure>
-              <img src="images/party/3friends.jpg" alt="3 Friends">
+              <img class="hidden480" src="images/party/3friends.jpg" alt="3 Friends">
             </figure>
             
             <figure>
-              <img src="images/party/4friends.jpg" alt="4 Friends">
+              <img class="hidden480" src="images/party/4friends.jpg" alt="4 Friends">
             </figure>
            
             
              <figure>
-              <img src="images/party/me-drinking.jpg" alt="Me drinking">
+              <img class="hidden480" src="images/party/me-drinking.jpg" alt="Me drinking">
             </figure>
             
              <figure class="hidden890">
@@ -106,6 +106,30 @@
     </body>
    
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
