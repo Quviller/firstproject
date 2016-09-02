@@ -1,0 +1,193 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    box-sizing: border-box;
+    background:grey;
+}
+
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+    height:5vw;
+    width:100vw;
+    background:grey;
+}
+
+h1 {
+    font-size: 2.5vw;
+    display: inline-block; 
+    color: white;
+    margin:1.25vw 1.5vw;
+    height:2.5vw;
+   
+}
+
+nav { 
+    float:right;
+    margin:1.5vw 4vw;
+}
+
+nav ul {
+    list-style:none;
+}
+nav ul li {
+    display:inline-block;
+    margin: 0 1vw;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-size:2vw;
+}
+a:hover {
+  color:blue;  
+}
+#about {
+    margin-top:5vw;
+    height:25vw;
+}
+
+#about img {
+    float:right;
+    width:15vw;
+    height:15vw;
+    margin:5vw;
+    border-radius:50%;
+}
+
+p {
+    font-size:1.8vw;
+    padding:3vw 0 0 2.5vw;
+    height:22vw;
+}
+
+div + div {
+    clear:both;
+}
+h2 {
+    display:block;
+    margin:0 3vw;
+    float:left;
+    font-size: 2vw;
+    height:5vw;
+}
+#hobbies a {
+    clear:left;
+    float:left;
+    display:block;
+    margin: 0 3vw;
+}
+
+#hobbies p {
+    clear:left;
+    float:left;
+    display:block;
+    font-size: 1.6vw;
+    height: 15vw;
+    width: 50vw;
+    padding:1vw 0 0 2.5vw;
+}
+
+div img {
+    width: 38vw;
+    height: 20vw;
+    float:right;
+    margin: 1vw 1vw 0 0;
+    border-radius:10%;
+    transition: border-radius 2s;
+}
+
+#photos {
+    clear:both;
+}
+
+
+#photos {
+    position:relative;
+    margin-bottom: 45px;
+}
+
+#right-arrow, #left-arrow{
+    position:absolute;
+    width: 5vw;
+    height: 5vw;
+    right: 0.5vw;
+    top: 47%;
+    border-radius:50%;
+}
+
+#left-arrow {
+    transform: rotate(180deg);
+    left:0.5vw;
+}
+
+figure {
+    display:inline-block;
+    margin:2vw 0 0 1vw;
+}
+figure img {
+    width: 47vw;
+    height:29vw;
+    border-radius:20%;
+    
+}
+
+.hidden890 {
+    visibility:hidden;  /* c*/
+    position:absolute;
+    left:0;
+    bottom:0;
+    
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:10;
+    height:45px;
+    width:100vw;
+    background:grey;
+}
+
+form {
+    float:left;
+    margin:12.5px;
+    position:relative;
+    color: white;
+}
+
+input {
+    display:inline-block;
+    height:20px;
+}
+
+.social-nav {
+    float: right;
+    margin:5px 3vw 0 0 ;
+    
+}
+.social-nav ul li {
+    display: inline-block;
+}
+.social-nav ul li a {
+    display: inline-block;
+}
+.social-nav ul li a img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5vw;
+    border-radius:20%;
+    transition: border-radius 2s;
+}
+
+.social-nav ul li a img:hover {
+    border-radius: 50%;   
+}
