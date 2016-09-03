@@ -62,8 +62,13 @@ div img {
     position:relative;
     margin-bottom: 45px;
 }
+
+figure {
+    margin:0;
+}
+
 figure img {
-    width: 92vw;
+    width: 100vw;
     height:60vw;
 }
 footer {
