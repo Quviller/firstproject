@@ -1,10 +1,24 @@
-document.getElementById('right-arrow').addEventListener('click', picChangeRight,false);
+document.getElementById('btn-get').addEventListener('click',sendGet,false);
 
-function picChangeRight () {
-    var r = document.getElementsByClassName('photos');
-    
-    var i;
-    for (i=0;i<r.length;i++) {
-        r[i].setAttribute('src', 'r[i+1].getAttribute(src)');
-    }
+
+function sendGet (e){
+    e.preventDefault();
+    if ( !$('#email').val() ) {
+        alert('Please provide your CV to access CV');
+        return;
+    } 
+        
+    $.ajax({
+    url: "https://formspree.io/didukhroman@gmail.com", 
+    method: "POST",
+    data: {
+        message: "Hello! Your CV was just seen by:",
+        email: $('#email').val(),
+    },
+    dataType: "json"
+});
+window.open('https://docs.google.com/document/d/1igmzPrNCYB6w0vtqrhri-Zq1kczuuMzJd2rmFMOzaZc/edit?usp=sharing');
+
 }
+
+

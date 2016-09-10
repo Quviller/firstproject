@@ -71,33 +71,17 @@ figure img {
     width: 100vw;
     height:60vw;
 }
-footer {
-    height:70px;
-}
 
 form {
-    float:left;
-    position:relative;
-    color: white;
     margin:0;
 }
 
 input {
     display:block;
-    margin:8px;
     height:20px;
+    margin:2px 0;
 }
-.social-nav ul li a img {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    margin:12.5px 0.5vw;
-    border-radius:20%;
-    transition: border-radius 2s;
-}
-.social-nav ul li a img:hover {
-    border-radius: 50%;   
-}
+
 .hidden480 {
     position:absolute;
     visibility:hidden;

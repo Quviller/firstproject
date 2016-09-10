@@ -23,9 +23,10 @@ footer{
     position: fixed;
     bottom: 0;
     left:0;
-    width: 100vw;
+    height:50px;
+    width:100vw;
     z-index:10;
-    background-color: grey;
+    background-color: green;
 }
 
 h1 {
@@ -78,7 +79,7 @@ article img {
 #hobbies {
     max-height:50vh;
     clear: both;
-    margin:4vw 0 12vw 0;
+    margin:4vw 0 0 0;
 }
 #hobbies div {
     display:inline-block;
@@ -115,36 +116,41 @@ a:hover {
 
 form {
     float:left;
-    margin-left:15vw;
+    margin: 7px 0 7px 15vw;
+    height:36px;
     padding: 0.5vw;
     position:relative;
 }
 
 label, input {
+    height:25px;
     display:inline-block;
-    
+    margin: auto;
+    font-size:15px;
+  font-weight:600;
 }
+
 label {
-    font-size:1.2vw;
     color: white;
 }
 
 .social-nav {
     float: right;
-    margin:0.5vw 15vw 0 0 ;
+    margin:0 15vw 0 0 ;
     
+}
+.social-nav ul {
+    margin: 7px;
 }
 .social-nav ul li {
     display: inline-block;
 }
-.social-nav ul li a {
-    display: inline-block;
-}
+
 .social-nav ul li a img {
     display: inline-block;
-    width: 35px;
-    height: 35px;
-    margin-right: 0.5vw;
+    width: 36px;
+    height: 36px;
+    margin: auto 0.5vw;
     border-radius:20%;
     transition: border-radius 2s;
 }
@@ -153,48 +159,16 @@ label {
     border-radius: 50%;   
 }
 
-#hobbies div img:hover {
-    border-radius: 50%;   
+
+#myCarousel {
+    clear:both;
+    margin: 10vw;
 }
 
-img:hover {
-    border-radius: 50%;   
-}
-
-#photos {
-    position:relative;
-    clear: both;
-    margin-bottom: 11vw;
-}
-
-#left-arrow {
-    width: 2vw;
-    height: 2vw;
-    transform: rotate(180deg);
-    position:absolute;
-    left: 0;
-    top: 47%;
-    border-radius:50%;
-}
-
-#right-arrow{
-    position:absolute;
-    width: 2vw;
-    height: 2vw;
-    right: 0;
-    top: 47%;
-    border-radius:50%;
-}
-figure {
-    
-    display:inline-block;
-    margin: 0;
-}
-figure img {
-    width: 23vw;
-    height:15vw;
+#myCarousel img {
+    height: 38vw;
+    margin: 0 auto;
     border-radius:25%;
-    transition: border-radius 2s;
 }
 
 .hiddenlg {

@@ -103,40 +103,15 @@ div img {
     transition: border-radius 2s;
 }
 
-#photos {
+#myCarousel {
     clear:both;
+    margin-bottom:50px;
 }
 
-
-#photos {
-    position:relative;
-    margin-bottom: 45px;
+#myCarousel img {
+    width: 100vw;
 }
 
-#right-arrow, #left-arrow{
-    position:absolute;
-    width: 5vw;
-    height: 5vw;
-    right: 0.5vw;
-    top: 47%;
-    border-radius:50%;
-}
-
-#left-arrow {
-    transform: rotate(180deg);
-    left:0.5vw;
-}
-
-figure {
-    display:inline-block;
-    margin:2vw 0 0 1vw;
-}
-figure img {
-    width: 47vw;
-    height:29vw;
-    border-radius:20%;
-    
-}
 
 .hidden890 {
     visibility:hidden;  /* c*/
@@ -151,39 +126,52 @@ footer {
     bottom:0;
     left:0;
     z-index:10;
-    height:45px;
+    height:50px;
     width:100vw;
-    background:grey;
+    background:yellow;
 }
 
 form {
     float:left;
-    margin:12.5px;
+    margin: 7px 0 7px 3vw;
+    height:36px;
+    padding: 0.5vw;
     position:relative;
-    color: white;
 }
 
-input {
+label, input {
+    height:25px;
     display:inline-block;
-    height:20px;
+    margin: auto;
+    font-size:15px;
+  font-weight:600;
+}
+
+#email {
+    max-width:40vw;
+}
+
+label {
+    color: white;
 }
 
 .social-nav {
     float: right;
-    margin:5px 3vw 0 0 ;
+    margin:0 3vw 0 0 ;
     
+}
+.social-nav ul {
+    margin: 7px;
 }
 .social-nav ul li {
     display: inline-block;
 }
-.social-nav ul li a {
-    display: inline-block;
-}
+
 .social-nav ul li a img {
     display: inline-block;
-    width: 35px;
-    height: 35px;
-    margin-right: 0.5vw;
+    width: 36px;
+    height: 36px;
+    margin: auto 0.5vw;
     border-radius:20%;
     transition: border-radius 2s;
 }
