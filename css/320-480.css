@@ -14,72 +14,18 @@ h1 {
     width:25vw;
     height:25vw;
 }
-p {
-    font-size:2.2vw;
-    padding:3vw 0 0 2.5vw;
-    height:25vw;
-}
 
-#hobbies {
-    clear:both;
-    margin-top:5vw;
+footer {
+    height:60px;
 }
-
-div + div {
-    clear:both;
-}
-
-h2 {
-    display:block;
-    margin:5vw 7vw 2vw 7vw;
-   
-    font-size: 3vw;
-    height:5vw;
-}
-#hobbies a {
-    clear:left;
-   
-    display:block;
-    margin: 0 7vw;
-    font-size:2.5vw;
-    height:5vw;
-}
-div img {
-    width: 38vw;
-    height: 20vw;
-    float:right;
-    margin: 1vw 5vw 4vw 0;
-    border-radius:10%;
-    transition: border-radius 2s;
-}
-
-#photos {
-    clear:both;
-}
-
-
-#photos {
-    position:relative;
-    margin-bottom: 45px;
-}
-
-figure {
-    margin:0;
-}
-
-figure img {
-    width: 100vw;
-    height:60vw;
-}
-
 form {
-    margin:0;
-}
+    margin: 2px;
 
+}
 input {
     display:block;
-    height:20px;
-    margin:2px 0;
+    height:25px;
+    margin:2px;
 }
 
 .hidden480 {

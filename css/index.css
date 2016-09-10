@@ -56,7 +56,6 @@ h1 {
    color:blue;
 }
 #about {
-    
     clear: both;
     margin: 5vw 0 0 0;
 } 
@@ -79,7 +78,7 @@ article img {
 #hobbies {
     max-height:50vh;
     clear: both;
-    margin:4vw 0 0 0;
+    margin:0 0 10vw 0;
 }
 #hobbies div {
     display:inline-block;
@@ -96,13 +95,16 @@ article img {
 h2  {
     text-align: center;
     font-size:1.4vw;
+    font-weight:700;
     line-height:1.6vw;
     margin-bottom:1.5vw;
 }
 
+
 div a {
     line-height:3vw;
     font-size:1.25vw;
+    font-weight:800;
     text-decoration: none;
     color: #D2691E;
     display: block;
@@ -159,14 +161,19 @@ label {
     border-radius: 50%;   
 }
 
-
-#myCarousel {
+#photos {
     clear:both;
-    margin: 10vw;
+    margin-bottom:150px;
 }
 
-#myCarousel img {
-    height: 38vw;
+
+#myCarousel-lg img {
+    width: 100vw;
+    margin: 0 auto;
+    border-radius:25%;
+}
+#myCarousel-lg img {
+    width: 100vw;
     margin: 0 auto;
     border-radius:25%;
 }
