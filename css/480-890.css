@@ -12,9 +12,9 @@ header {
     position:fixed;
     top:0;
     left:0;
+    right:0;
     z-index:10;
-    height:5vw;
-    width:100vw;
+    height:7vw;
     background:grey;
 }
 
@@ -51,7 +51,7 @@ a:hover {
   color:blue;  
 }
 #about {
-    margin:5vw 0 10vw 0;
+    margin:7vw 0 10vw 0;
     height:25vw;
 }
 
@@ -80,12 +80,10 @@ h2 {
     width:29vw;
     display:inline-block;
     margin: 1vw 1vw 3vw 1vw;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-h2:hover {
-    font-size:3vw;
-}
+
 
 #hobbies {
     clear:both;
@@ -140,9 +138,9 @@ footer {
     position:fixed;
     bottom:0;
     left:0;
+    right:0;
     z-index:10;
     height:50px;
-    width:100vw;
     background:green;
 
 }
@@ -151,16 +149,15 @@ form {
     float:left;
     margin: 7px 0 7px 3vw;
     height:36px;
-    padding: 0.5vw;
     position:relative;
 }
 
 label, input {
-    height:25px;
+    height:26px;
     display:inline-block;
-    margin: auto;
+    margin: 5px auto;
     font-size:15px;
-  font-weight:600;
+    font-weight:600;
 }
 
 #email {
@@ -194,4 +191,11 @@ label {
 
 .social-nav ul li a img:hover {
     border-radius: 50%;   
+}
+
+.carousel-control {
+    border-radius:50%;
+    top:45%;
+    height:15%;
+    width:15%;
 }

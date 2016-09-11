@@ -85,6 +85,32 @@ input {
     margin:2px;
 }
 
+.social-nav {
+    float: right;
+    margin:5px 5px 0 0 ;
+    
+}
+.social-nav ul {
+    margin: 7px 0 7px 7px;
+}
+.social-nav ul li {
+    display: inline-block;
+}
+
+.social-nav ul li a img {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: auto 0.5vw;
+    border-radius:20%;
+    transition: border-radius 2s;
+}
+
+
+
+
+
+
 .hidden480 {
     position:absolute;
     visibility:hidden;

@@ -14,7 +14,7 @@ header {
     position: fixed;
     top:0;
     left:0;
-    width:100vw;
+    right:0;
     z-index:10;
     background: url("../images/bg.jpg") no-repeat;
     background-size: 100vw;
@@ -23,8 +23,8 @@ footer{
     position: fixed;
     bottom: 0;
     left:0;
+    right:0;
     height:50px;
-    width:100vw;
     z-index:10;
     background-color: green;
 }
@@ -37,7 +37,7 @@ h1 {
 }
 .main-nav {
     float: right;
-    margin:0 15vw 0 0 ;
+    margin: 0 15vw 0 0 ;
 }
 .main-nav ul {
     margin: 1.2vw 0 0.5vw;
@@ -120,16 +120,15 @@ form {
     float:left;
     margin: 7px 0 7px 15vw;
     height:36px;
-    padding: 0.5vw;
     position:relative;
 }
 
 label, input {
-    height:25px;
+    height:26px;
     display:inline-block;
-    margin: auto;
-    font-size:15px;
-  font-weight:600;
+    margin: 5px auto;
+    font-size:15px;  
+    font-weight:600;
 }
 
 label {
@@ -166,12 +165,6 @@ label {
     margin-bottom:150px;
 }
 
-
-#myCarousel-lg img {
-    width: 100vw;
-    margin: 0 auto;
-    border-radius:25%;
-}
 #myCarousel-lg img {
     width: 100vw;
     margin: 0 auto;
@@ -181,4 +174,11 @@ label {
 .hiddenlg {
     position:absolute;
     visibility: hidden;
+}
+
+.carousel-control {
+    border-radius:50%;
+    top:45%;
+    height:15%;
+    width:5%;
 }
