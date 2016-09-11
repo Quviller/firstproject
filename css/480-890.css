@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    font-size: 2.5vw;
+    font-size: 4vw;
     display: inline-block; 
     color: white;
     margin:1.25vw 1.5vw;
@@ -57,6 +57,10 @@ a:hover {
 
 p {
     font-weight:600;
+    font-size:1.8vw;
+    padding:3vw 0 0 2.5vw;
+    height:22vw;
+    color: yellow;
 }
 #about img {
     float:right;
@@ -64,13 +68,6 @@ p {
     height:20vw;
     margin:5vw;
     border-radius:50%;
-}
-
-p {
-    font-size:1.8vw;
-    padding:3vw 0 0 2.5vw;
-    height:22vw;
-    color: yellow;
 }
 
 div + div {
@@ -92,7 +89,6 @@ h2:hover {
 
 #hobbies {
     clear:both;
-    
     height:55vw;
 }
 #hobbies a {
@@ -126,7 +122,7 @@ div img {
 }
 
 
-#myCarousel-890 img {
+#myCarousel img {
     width: 100vw;
     margin: 0 auto;
 }

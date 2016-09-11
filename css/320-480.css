@@ -1,19 +1,76 @@
 h1 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     margin:0.75vw 1.5vw;
     height:3.5vw;
    
 }
 
 #about {
-    margin-top:5vw;
-    height:35vw;
+    margin-top:11vw;
+    height:80vw;
 }
 
 #about img {
-    width:25vw;
-    height:25vw;
+    display:block;
+    float:none;
+    width:40vw;
+    height:40vw;
+    margin: 0 auto;
 }
+
+p {
+    font-weight:600;
+    font-size:2.5vw;
+    padding:5vw;
+    color: yellow;
+    text-align:center;
+}
+
+#hobbies {
+    margin-top: 5vw;
+}
+
+#hobbies {
+    clear:both;
+    height:55vw;
+}
+#hobbies a {
+    float:none;
+    display:block;
+    margin:3vw;
+    font-size:4vw;
+    font-weight:600;
+    text-align:center;
+}
+
+#hobbies p {
+    margin:15vw;
+    float:none;
+    display:block;
+    font-size: 1.8vw;
+    width: 25vw;
+    padding:1vw 0 0 2.5vw;
+}
+
+div img {
+    width: 80vw;
+    float:none;
+    margin: 1vw auto;
+    border-radius:10%;
+    transition: border-radius 2s;
+}
+
+
+
+
+
+#photos {
+    clear:both;
+    margin-bottom:50px;
+    margin-top:15vw;
+}
+
+
 
 footer {
     height:60px;
