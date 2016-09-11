@@ -4,7 +4,7 @@ document.getElementById('btn-get').addEventListener('click',sendGet,false);
 function sendGet (e){
     e.preventDefault();
     if ( !$('#email').val() ) {
-        alert('Please provide your CV to access CV');
+        alert('Please provide your email to access CV');
         return;
     } 
         
