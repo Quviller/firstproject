@@ -166,7 +166,7 @@ label {
 }
 
 #myCarousel-lg img {
-    width: 100vw;
+    height: 35vw;
     margin: 0 auto;
     border-radius:25%;
 }
